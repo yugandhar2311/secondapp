@@ -1,0 +1,108 @@
+.click {
+  font-size: 24px; 
+  color: #220e3b; 
+  text-align: center; 
+  position-visibility: center;
+
+}
+.Update-container {
+ padding: 20px;
+ max-width: 400px;
+ margin: 0 auto;
+}
+
+.Update-form {
+ display: flex;
+ flex-direction: column;
+}
+
+.form-group {
+ margin-bottom: 15px;
+}
+
+label {
+ margin-bottom: 5px;
+ font-weight: bold;
+}
+
+input {
+ padding: 8px;
+ font-size: 16px;
+ border: 1px solid #ccc;
+ border-radius: 4px;
+ width: 100%;
+}
+
+button {
+ padding: 10px 15px;
+ font-size: 16px;
+ color: #fff;
+ background-color: #007bff;
+ border: none;
+ border-radius: 4px;
+ cursor: pointer;
+}
+
+button:hover {
+ background-color: #0056b3;
+}
+.action-button.update {
+ background-color: #4caf50;
+}
+
+@media (max-width: 500px) {
+
+  .click {
+    font-size: 24px; 
+    color: #220e3b; 
+    text-align: center; 
+    position-visibility: center;
+  
+  }
+  .Update-container {
+   padding: 20px;
+   max-width: 400px;
+   margin: 0 auto;
+  }
+  
+  .Update-form {
+   display: flex;
+   flex-direction: column;
+  }
+  
+  .form-group {
+   margin-bottom: 15px;
+  }
+  
+  label {
+   margin-bottom: 5px;
+   font-weight: bold;
+  }
+  
+  input {
+   padding: 8px;
+   font-size: 16px;
+   border: 1px solid #ccc;
+   border-radius: 4px;
+   width: 100%;
+  }
+  
+  button {
+   padding: 10px 15px;
+   font-size: 16px;
+   color: #fff;
+   background-color: #007bff;
+   border: none;
+   border-radius: 4px;
+   cursor: pointer;
+  }
+  
+  button:hover {
+   background-color: #0056b3;
+  }
+  .action-button.update {
+   background-color: #4caf50;
+  }
+  
+  
+}
